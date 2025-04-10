@@ -1,0 +1,591 @@
+POST Data: Array
+(
+    [csrf_token] => 01bb8a11fd9a87a666eeb701253a9ac690bef556242d8e7bf7474464f46be625
+    [type] => customer
+    [username] => prem
+    [password] => 1234567890
+    [name] => prem
+    [address] => at temple
+    [shop_id] => 1
+)
+
+Signup Success: prem
+Login POST Data: Array
+(
+    [csrf_token] => <br />
+<b>Warning</b>:  Undefined variable $_SESSION in <b>C:\a\htdocs\001\dbms - 2\login.php</b> on line <b>17</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type null in <b>C:\a\htdocs\001\dbms - 2\login.php</b> on line <b>17</b><br />
+
+    [type] => admin
+    [username] => badam
+    [password] => 123456789
+)
+
+CSRF Error: Token mismatch
+Login POST Data: Array
+(
+    [csrf_token] => <br />
+<b>Warning</b>:  Undefined variable $_SESSION in <b>C:\a\htdocs\001\dbms - 2\login.php</b> on line <b>17</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type null in <b>C:\a\htdocs\001\dbms - 2\login.php</b> on line <b>17</b><br />
+
+    [type] => admin
+    [username] => badam
+    [password] => 123456789
+)
+
+CSRF Error: Token mismatch
+Login POST Data: Array
+(
+    [csrf_token] => 01bb8a11fd9a87a666eeb701253a9ac690bef556242d8e7bf7474464f46be625
+    [type] => customer
+    [username] => prem
+    [password] => 123456789
+)
+
+User Found: Yes
+Login Failed: Invalid credentials
+Login POST Data: Array
+(
+    [csrf_token] => 01bb8a11fd9a87a666eeb701253a9ac690bef556242d8e7bf7474464f46be625
+    [type] => admin
+    [username] => badam
+    [password] => 123456789
+)
+
+User Found: Yes
+Password Verified for badam
+Session Set, Redirecting to admin.php
+Session Data: Array
+(
+    [csrf_token] => 01bb8a11fd9a87a666eeb701253a9ac690bef556242d8e7bf7474464f46be625
+    [admin_id] => 3
+    [shop_id] => 1
+)
+
+Session Data: Array
+(
+    [csrf_token] => 01bb8a11fd9a87a666eeb701253a9ac690bef556242d8e7bf7474464f46be625
+    [admin_id] => 3
+    [shop_id] => 1
+)
+
+Session Data: Array
+(
+    [csrf_token] => 01bb8a11fd9a87a666eeb701253a9ac690bef556242d8e7bf7474464f46be625
+    [admin_id] => 3
+    [shop_id] => 1
+)
+
+Session Data: Array
+(
+    [csrf_token] => 01bb8a11fd9a87a666eeb701253a9ac690bef556242d8e7bf7474464f46be625
+    [admin_id] => 3
+    [shop_id] => 1
+)
+
+Login POST Data: Array
+(
+    [csrf_token] => 52e81c6c6589d2ced4e9bef9854ef274ca33024fd922fcb02393107ab245261c
+    [type] => customer
+    [username] => tunki
+    [password] => Bunny@2005
+)
+
+User Found: Yes
+Set customer_id: 2
+Login POST Data: Array
+(
+    [csrf_token] => 63ac03901ca4de97b03d992f1dae56b04fef00ac33905337905b631b100fc04a
+    [type] => customer
+    [username] => tunki
+    [password] => 123456789
+)
+
+User Found: Yes
+Login Failed: Invalid credentials
+Login POST Data: Array
+(
+    [csrf_token] => 63ac03901ca4de97b03d992f1dae56b04fef00ac33905337905b631b100fc04a
+    [type] => customer
+    [username] => tunki
+    [password] => Bunny@2005
+)
+
+User Found: Yes
+Set customer_id: 2
+Login POST Data: Array
+(
+    [csrf_token] => 639c70c6018022ab2ad99b2ac057b582d691407fae421a36f60c6fadccca5eea
+    [type] => admin
+    [username] => badam
+    [password] => 123456789
+)
+
+User Found: Yes
+Set admin_id: 3, shop_id: 1
+Session Data in admin.php: Array
+(
+    [csrf_token] => 639c70c6018022ab2ad99b2ac057b582d691407fae421a36f60c6fadccca5eea
+    [admin_id] => 3
+    [shop_id] => 1
+)
+
+Session Data in admin.php: Array
+(
+    [csrf_token] => 639c70c6018022ab2ad99b2ac057b582d691407fae421a36f60c6fadccca5eea
+    [admin_id] => 3
+    [shop_id] => 1
+)
+
+Login POST Data: Array
+(
+    [csrf_token] => 223415514a55b2e56fe88d4a3b669943f7083a299d6cf89aa93805a0b1088a33
+    [type] => admin
+    [username] => badam
+    [password] => 123456789
+)
+
+User Found: Yes
+Set admin_id: 3, shop_id: 1
+Session Data in admin.php: Array
+(
+    [csrf_token] => 223415514a55b2e56fe88d4a3b669943f7083a299d6cf89aa93805a0b1088a33
+    [admin_id] => 3
+    [shop_id] => 1
+)
+
+Login POST Data: Array
+(
+    [csrf_token] => 223415514a55b2e56fe88d4a3b669943f7083a299d6cf89aa93805a0b1088a33
+    [type] => admin
+    [username] => badam
+    [password] => 123456789
+)
+
+User Found: Yes
+Set admin_id: 3, shop_id: 1
+Session Data in admin.php: Array
+(
+    [csrf_token] => 223415514a55b2e56fe88d4a3b669943f7083a299d6cf89aa93805a0b1088a33
+    [admin_id] => 3
+    [shop_id] => 1
+)
+
+Signup POST Data: Array
+(
+    [csrf_token] => a0af71e7e36e8f63638ede3ea8a3f4a7651fb38fcd0a3fd7302ac53240aa2813
+    [type] => admin
+    [username] => balu
+    [password] => 123456789
+    [name] => 
+    [address] => 
+    [shop_id] => 3
+)
+
+Signup Success: balu
+Login POST Data: Array
+(
+    [csrf_token] => a0af71e7e36e8f63638ede3ea8a3f4a7651fb38fcd0a3fd7302ac53240aa2813
+    [type] => admin
+    [username] => balu
+    [password] => 1234567890
+)
+
+User Found: Yes
+Login Failed: Invalid credentials
+Login POST Data: Array
+(
+    [csrf_token] => a0af71e7e36e8f63638ede3ea8a3f4a7651fb38fcd0a3fd7302ac53240aa2813
+    [type] => admin
+    [username] => balu
+    [password] => 123456789
+)
+
+User Found: Yes
+Set admin_id: 5, shop_id: 3
+Session Data in admin.php: Array
+(
+    [csrf_token] => a0af71e7e36e8f63638ede3ea8a3f4a7651fb38fcd0a3fd7302ac53240aa2813
+    [admin_id] => 5
+    [shop_id] => 3
+)
+
+Session Data in admin.php: Array
+(
+    [csrf_token] => a0af71e7e36e8f63638ede3ea8a3f4a7651fb38fcd0a3fd7302ac53240aa2813
+    [admin_id] => 5
+    [shop_id] => 3
+)
+
+Session Data in admin.php: Array
+(
+    [csrf_token] => a0af71e7e36e8f63638ede3ea8a3f4a7651fb38fcd0a3fd7302ac53240aa2813
+    [admin_id] => 5
+    [shop_id] => 3
+)
+
+Session Data in admin.php: Array
+(
+    [csrf_token] => a0af71e7e36e8f63638ede3ea8a3f4a7651fb38fcd0a3fd7302ac53240aa2813
+    [admin_id] => 5
+    [shop_id] => 3
+)
+
+Session Data in admin.php: Array
+(
+    [csrf_token] => a0af71e7e36e8f63638ede3ea8a3f4a7651fb38fcd0a3fd7302ac53240aa2813
+    [admin_id] => 5
+    [shop_id] => 3
+)
+
+Login POST Data: Array
+(
+    [csrf_token] => bc3c9c3cb63a57d2719a0a6f565b58d1059b4224b54a3acf43507bef092007f2
+    [type] => customer
+    [username] => tunki
+    [password] => 123456789
+)
+
+User Found: Yes
+Login Failed: Invalid credentials
+Login POST Data: Array
+(
+    [csrf_token] => bc3c9c3cb63a57d2719a0a6f565b58d1059b4224b54a3acf43507bef092007f2
+    [type] => customer
+    [username] => tunki
+    [password] => 123456789
+)
+
+User Found: Yes
+Login Failed: Invalid credentials
+Login POST Data: Array
+(
+    [csrf_token] => bc3c9c3cb63a57d2719a0a6f565b58d1059b4224b54a3acf43507bef092007f2
+    [type] => customer
+    [username] => tunki
+    [password] => 123456789
+)
+
+User Found: Yes
+Login Failed: Invalid credentials
+Login POST Data: Array
+(
+    [csrf_token] => bc3c9c3cb63a57d2719a0a6f565b58d1059b4224b54a3acf43507bef092007f2
+    [type] => customer
+    [username] => tunki
+    [password] => Bunny@2005
+)
+
+User Found: Yes
+Set customer_id: 2
+Login POST Data: Array
+(
+    [csrf_token] => bc3c9c3cb63a57d2719a0a6f565b58d1059b4224b54a3acf43507bef092007f2
+    [type] => admin
+    [username] => balu
+    [password] => 123456789
+)
+
+User Found: Yes
+Set admin_id: 5, shop_id: 3
+Session Data in admin.php: Array
+(
+    [csrf_token] => bc3c9c3cb63a57d2719a0a6f565b58d1059b4224b54a3acf43507bef092007f2
+    [customer_id] => 2
+    [admin_id] => 5
+    [shop_id] => 3
+)
+
+Session Data in admin.php: Array
+(
+    [csrf_token] => bc3c9c3cb63a57d2719a0a6f565b58d1059b4224b54a3acf43507bef092007f2
+    [customer_id] => 2
+    [admin_id] => 5
+    [shop_id] => 3
+)
+
+Session Data in admin.php: Array
+(
+    [csrf_token] => bc3c9c3cb63a57d2719a0a6f565b58d1059b4224b54a3acf43507bef092007f2
+    [customer_id] => 2
+    [admin_id] => 5
+    [shop_id] => 3
+)
+
+Session Data in admin.php: Array
+(
+    [csrf_token] => bc3c9c3cb63a57d2719a0a6f565b58d1059b4224b54a3acf43507bef092007f2
+    [customer_id] => 2
+    [admin_id] => 5
+    [shop_id] => 3
+)
+
+Login POST Data: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [type] => admin
+    [username] => balu
+    [password] => 123456789
+)
+
+User Found: Yes
+Set admin_id: 5, shop_id: 3
+Session Data in admin.php: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [admin_id] => 5
+    [shop_id] => 3
+)
+
+Admin Page Load - Session Check at 2025-04-09 18:17:14
+Session Data: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [admin_id] => 5
+    [shop_id] => 3
+)
+
+Admin ID: 5, Shop ID: 3
+Shop Name: balaswami_kiranam
+Low Stock Count: 0
+Admin Page Load - Session Check at 2025-04-09 18:17:15
+Session Data: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [admin_id] => 5
+    [shop_id] => 3
+)
+
+Admin ID: 5, Shop ID: 3
+Shop Name: balaswami_kiranam
+Low Stock Count: 0
+Admin Page Load - Session Check at 2025-04-09 18:17:21
+Session Data: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [admin_id] => 5
+    [shop_id] => 3
+)
+
+Admin ID: 5, Shop ID: 3
+Shop Name: balaswami_kiranam
+Low Stock Count: 0
+Admin Page Load - Session Check at 2025-04-09 18:17:21
+Session Data: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [admin_id] => 5
+    [shop_id] => 3
+)
+
+Admin ID: 5, Shop ID: 3
+Shop Name: balaswami_kiranam
+Low Stock Count: 0
+Admin Page Load - Session Check at 2025-04-09 18:17:21
+Session Data: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [admin_id] => 5
+    [shop_id] => 3
+)
+
+Admin ID: 5, Shop ID: 3
+Shop Name: balaswami_kiranam
+Low Stock Count: 0
+Session Data in admin.php: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [admin_id] => 5
+    [shop_id] => 3
+)
+
+Session Data in admin.php: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [admin_id] => 5
+    [shop_id] => 3
+)
+
+Login POST Data: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [type] => customer
+    [username] => tunki
+    [password] => Bunny@2005
+)
+
+User Found: Yes
+Set customer_id: 2
+Session Data in admin.php: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [admin_id] => 5
+    [shop_id] => 3
+    [customer_id] => 2
+)
+
+Session Data in admin.php: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [admin_id] => 5
+    [shop_id] => 3
+    [customer_id] => 2
+)
+
+Session Data in admin.php: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [admin_id] => 5
+    [shop_id] => 3
+    [customer_id] => 2
+)
+
+Login POST Data: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [type] => admin
+    [username] => balu
+    [password] => 123456789
+)
+
+User Found: Yes
+Set admin_id: 5, shop_id: 3
+Login POST Data: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [type] => admin
+    [username] => balu
+    [password] => 123456789
+)
+
+User Found: Yes
+Set admin_id: 5, shop_id: 3
+Session Data in admin.php: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [admin_id] => 5
+    [shop_id] => 3
+    [customer_id] => 2
+)
+
+Session Data in admin.php: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [admin_id] => 5
+    [shop_id] => 3
+    [customer_id] => 2
+)
+
+Session Data in admin.php: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [admin_id] => 5
+    [shop_id] => 3
+    [customer_id] => 2
+)
+
+Session Data in admin.php: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [admin_id] => 5
+    [shop_id] => 3
+    [customer_id] => 2
+)
+
+Session Data in admin.php: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [admin_id] => 5
+    [shop_id] => 3
+    [customer_id] => 2
+)
+
+Session Data in admin.php: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [admin_id] => 5
+    [shop_id] => 3
+    [customer_id] => 2
+)
+
+Session Data in admin.php: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [admin_id] => 5
+    [shop_id] => 3
+    [customer_id] => 2
+)
+
+Session Data in admin.php: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [admin_id] => 5
+    [shop_id] => 3
+    [customer_id] => 2
+)
+
+Session Data in admin.php: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [admin_id] => 5
+    [shop_id] => 3
+    [customer_id] => 2
+)
+
+Session Data in admin.php: Array
+(
+    [csrf_token] => 48403779f0395892407e7641ddbff124116d0c31cb28c02621ba866d7297a978
+    [admin_id] => 5
+    [shop_id] => 3
+    [customer_id] => 2
+)
+
+Login POST Data: Array
+(
+    [csrf_token] => 3f329a164f3cc2b625d76ac54efb904f8131fdcd9beb9d629c7ebe3990b2c59a
+    [type] => admin
+    [username] => balu
+    [password] => 123456789
+)
+
+User Found: Yes
+Set admin_id: 5, shop_id: 3
+Session Data in admin.php: Array
+(
+    [csrf_token] => 3f329a164f3cc2b625d76ac54efb904f8131fdcd9beb9d629c7ebe3990b2c59a
+    [admin_id] => 5
+    [shop_id] => 3
+)
+
+Login POST Data: Array
+(
+    [csrf_token] => 23cbcaf2f2732e5873d409d9a995b33ec83a2b86b69b06160943fef4264fa2cc
+    [type] => admin
+    [username] => badam
+    [password] => 123456789
+)
+
+User Found: Yes
+Set admin_id: 3, shop_id: 1
+Login POST Data: Array
+(
+    [csrf_token] => 13b74803445c42f4b4191d2cb30c9cd7e9f2e46d914ca3a7a3ca73cb0a3fb5f3
+    [type] => customer
+    [username] => tunki
+    [password] => Bunny@2005
+)
+
+User Found: Yes
+Set customer_id: 2
+Login POST Data: Array
+(
+    [csrf_token] => 98e9c3bf8002dd123ac191df2dffe069606d59d0367a448e6dea0049fd63cf18
+    [type] => admin
+    [username] => badam
+    [password] => 123456789
+)
+
+User Found: Yes
+Set admin_id: 3, shop_id: 1
